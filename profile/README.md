@@ -93,6 +93,7 @@ See the [`ROADMAP`](https://github.com/ajar-protocol/planning/blob/main/ROADMAP.
 
 ## Start Contributing
 
+- New here? Follow [`ONBOARDING.md`](https://github.com/ajar-protocol/.github/blob/main/ONBOARDING.md) end to end.
 - Read the [`ajar`](https://github.com/ajar-protocol/ajar) README in its stated order.
 - Pick a task from the org Project board, [Ajar Roadmap](https://github.com/orgs/ajar-protocol/projects).
 - Start with issues labeled `good first issue` when learning the system.

@@ -6,7 +6,7 @@ Describe the change and the task or issue it addresses.
 
 - [ ] Task or issue referenced
 - [ ] Scope limited to this change
-- [ ] Tests or validation included, if applicable
+- [ ] Tests or validation included, if applicable (see TESTING.md)
 - [ ] Docs updated, if behavior changed
 - [ ] Spec/GLOSSARY/DECISIONS updated, if protocol behavior changed
 - [ ] License compatibility checked for any new dependency or copied material

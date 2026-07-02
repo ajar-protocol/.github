@@ -5,9 +5,10 @@
 Thank you for helping build the owner-sovereign agentic web.
 
 ## Before you start
-1. Read `README.md`, then the doc relevant to your area (`docs/`), then `GLOSSARY.md`.
-2. If you are an AI coding agent (or directing one), `AGENTS.md` is binding.
-3. Check `DECISIONS.md` — if your idea contradicts an accepted ADR, open a discussion to revisit the ADR first; don't code against it.
+1. New here? Follow `ONBOARDING.md` end to end.
+2. Read `README.md`, then the doc relevant to your area (`docs/`), then `GLOSSARY.md`.
+3. If you are an AI coding agent (or directing one), `AGENTS.md` is binding.
+4. Check `DECISIONS.md` — if your idea contradicts an accepted ADR, open a discussion to revisit the ADR first; don't code against it.
 
 ## How work is organized
 - All work maps to task IDs in `/tasks/phase-N-*.md` (e.g., `T1.6`). Issues are seeded in the owning repo and aggregated on the org Project board, [Ajar Roadmap](https://github.com/orgs/ajar-protocol/projects). One task = one PR.
@@ -16,7 +17,7 @@ Thank you for helping build the owner-sovereign agentic web.
 
 ## Ground rules
 - Definition of Done is binding; demonstrate it in the PR.
-- Tests ship with the change (unit / conformance / adversarial as applicable). Never weaken a conformance or adversarial test to pass CI.
+- Tests ship with the change (unit / conformance / adversarial as applicable; see `TESTING.md`). Never weaken a conformance or adversarial test to pass CI.
 - Docs move with code in the same PR (spec, GLOSSARY, DECISIONS as applicable).
 - Fail closed; registry error codes at protocol boundaries; no telemetry in owner-deployed software (ADR-014).
 - Licenses: docs CC-BY-4.0, code Apache-2.0 (ADR-011). Check license compatibility before porting any snippet. DCO sign-off required (`git commit -s`).
