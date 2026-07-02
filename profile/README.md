@@ -2,6 +2,8 @@
 
 Open websites to AI agents under owner-controlled policy.
 
+Documentation: **[ajarprotocol.org](https://ajarprotocol.org)**
+
 Ajar is a protocol layer over HTTPS for agent-readable content, typed actions,
 delegated authority, and verifiable receipts. A website owner publishes a signed
 manifest that tells agents what is available, who may use it, at what price, and
