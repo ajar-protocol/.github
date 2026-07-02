@@ -45,7 +45,7 @@ python3 tools/check_phase0.py
 4. Expected green output from `ajar/README.md`:
 
 ```text
-Validated 12 valid examples, 8 invalid examples, 4 signing vectors, 2 HTTP signature vectors, 5 extension vectors, 6 manifest check vectors, 11 core vectors, 25 runtime vectors, and 12 scope vectors.
+Validated 14 valid examples, 8 invalid examples, 4 signing vectors, 2 HTTP signature vectors, 5 extension vectors, 6 manifest check vectors, 11 core vectors, 25 runtime vectors, and 12 scope vectors.
 MUST coverage OK: 24 requirements mapped.
 ```
 

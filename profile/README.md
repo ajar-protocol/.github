@@ -51,13 +51,13 @@ Published now:
 | [`ajar-docs-mcp`](https://github.com/ajar-protocol/ajar-docs-mcp) | MCP server exposing the Ajar spec to coding agents |
 | [`awesome-ajar`](https://github.com/ajar-protocol/awesome-ajar) | Directory of implementations, bridges, and conformant sites |
 | [`ajar-website`](https://github.com/ajar-protocol/ajar-website) | ajarprotocol.org — documentation website derived from the spec and planning repos |
+| [`ajar-examples`](https://github.com/ajar-protocol/ajar-examples) | Demo sites and reference scenarios, including the agent-built Story 4 demo |
 
 Publishing later:
 
 | Repo | Timing |
 |---|---|
 | `ajar-kernel` | Phase 2 |
-| `ajar-examples` | Phases 1-3 demos |
 | `ajar-woocommerce` | Stage 4 |
 | `ajar-shopify` | Stage 4 |
 | `ajar-index` | Phase 4 |
@@ -90,7 +90,7 @@ Automation contributors must follow [`AGENTS.md`](https://github.com/ajar-protoc
 
 ## Where We Are
 
-Phase 0, the spec v0.1 draft baseline, is complete except the independent-reader exercise ([ajar issue #2](https://github.com/ajar-protocol/ajar/issues/2)). Phase 1, the Gateway MVP read layer, is kicking off.
+Phase 0 is complete: the spec v0.1 draft baseline is frozen and the independent-reader exit gate passed ([record](https://github.com/ajar-protocol/ajar/blob/main/PHASE-0-REVIEW.md)). Phase 1, the Gateway MVP read layer, is underway — the Gateway skeleton (T1.1), the executable conformance harness (T1.14), and the docs MCP server have shipped, and an [agent-built demo site](https://github.com/ajar-protocol/ajar-examples/tree/main/story-4-bookshop) already passes the conformance CORE probes through the reference Gateway.
 
 See the [`ROADMAP`](https://github.com/ajar-protocol/planning/blob/main/ROADMAP.md) and [`BUILD-ORDER`](https://github.com/ajar-protocol/planning/blob/main/BUILD-ORDER.md) in planning.
 
