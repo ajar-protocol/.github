@@ -13,6 +13,9 @@ This repository contains organization-wide GitHub defaults for the
 
 Project contact: Hardik Modha <hardik@technopers.com>
 
+The other Ajar repositories are intentionally not public yet. They will be
+published one by one when their baseline docs, license, and structure are ready.
+
 ## License
 
 This repository is licensed under CC-BY-4.0. See `LICENSE`.

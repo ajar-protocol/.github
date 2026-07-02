@@ -36,20 +36,23 @@ fragile, and unsafe for real actions. Ajar adds the missing owner-side contract:
 
 The owner key is the root of authority. Automation drafts; owners decide.
 
-## Repository Map
+## Planned Repository Map
+
+Only the organization profile is public at this stage. The project repos below
+will be published as each area reaches its first useful baseline.
 
 | Repo | Purpose |
 |---|---|
-| [`planning`](https://github.com/ajar-protocol/planning) | Roadmap, build order, positioning, and integration stories |
-| [`ajar`](https://github.com/ajar-protocol/ajar) | Protocol specification, glossary, ADRs, schemas, examples, registries, AEPs |
-| [`conformance`](https://github.com/ajar-protocol/conformance) | Test vectors and harnesses defining "Ajar Compatible" |
-| [`ajar-gateway`](https://github.com/ajar-protocol/ajar-gateway) | Reference server for website owners |
-| [`ajar-kernel`](https://github.com/ajar-protocol/ajar-kernel) | Reference client runtime for agents |
-| [`ajar-docs-mcp`](https://github.com/ajar-protocol/ajar-docs-mcp) | MCP server exposing the Ajar spec to coding agents |
-| [`ajar-woocommerce`](https://github.com/ajar-protocol/ajar-woocommerce) | WordPress/WooCommerce integration |
-| [`ajar-shopify`](https://github.com/ajar-protocol/ajar-shopify) | Shopify integration design |
-| [`ajar-examples`](https://github.com/ajar-protocol/ajar-examples) | Demo sites and benchmark scenarios |
-| [`awesome-ajar`](https://github.com/ajar-protocol/awesome-ajar) | Directory of implementations, bridges, and conformant sites |
+| `planning` | Roadmap, build order, positioning, and integration stories |
+| `ajar` | Protocol specification, glossary, ADRs, schemas, examples, registries, AEPs |
+| `conformance` | Test vectors and harnesses defining "Ajar Compatible" |
+| `ajar-gateway` | Reference server for website owners |
+| `ajar-kernel` | Reference client runtime for agents |
+| `ajar-docs-mcp` | MCP server exposing the Ajar spec to coding agents |
+| `ajar-woocommerce` | WordPress/WooCommerce integration |
+| `ajar-shopify` | Shopify integration design |
+| `ajar-examples` | Demo sites and benchmark scenarios |
+| `awesome-ajar` | Directory of implementations, bridges, and conformant sites |
 
 ## Collaboration Model
 
@@ -85,8 +88,7 @@ Project contact: Hardik Modha <hardik@technopers.com>
 
 - Specification and documentation: CC-BY-4.0
 - Code and machine-readable implementation artifacts: Apache-2.0
-- Long-term governance target: neutral standards venue; see ADR-012 in
-  [`ajar`](https://github.com/ajar-protocol/ajar)
+- Long-term governance target: neutral standards venue
 
 Contributors should read [`CONTRIBUTING.md`](https://github.com/ajar-protocol/.github/blob/main/CONTRIBUTING.md).
 AI coding agents must follow [`AGENTS.md`](https://github.com/ajar-protocol/.github/blob/main/AGENTS.md).
