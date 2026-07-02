@@ -4,6 +4,14 @@ Open websites to AI agents under owner-controlled policy.
 
 Documentation: **[ajarprotocol.org](https://ajarprotocol.org)**
 
+Most agents reach websites by pretending to be hurried users: load the page,
+scrape the HTML, submit a form, maybe carry the user's browser session. That is
+bad for everyone. The agent cannot tell public data from account data, the owner
+cannot publish a clear policy, the user cannot delegate only a narrow job, and a
+purchase or account change leaves weak evidence. Ajar Protocol gives websites a
+cleaner path: signed manifests, semantic Views, typed Actions, scoped Mandates,
+SIMULATE before execution, and dual-signed Receipts.
+
 Ajar is a protocol layer over HTTPS for agent-readable content, typed actions,
 delegated authority, and verifiable receipts. A website owner publishes a signed
 manifest that tells agents what is available, who may use it, at what price, and
