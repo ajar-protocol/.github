@@ -1,10 +1,14 @@
 # AGENTS.md — Instructions for AI Coding Agents
 
-> **Org path convention:** this file applies org-wide (lives in the `.github` repo). References like `docs/03-PROTOCOL-SPEC.md`, `GLOSSARY.md`, `DECISIONS.md`, `schemas/`, `examples/` resolve inside the **`ajar` spec repo**; `CONVERSION-PIPELINE.md` lives in **`ajar-gateway`**; `ROADMAP.md` and `tasks/` live in **`planning`**; conformance vectors currently seed in `ajar/test-vectors` and graduate to **`conformance`** as the executable harness lands.
+> **Org path convention:** this file and `ENGINEERING.md` apply org-wide (live in the `.github` repo). References like `docs/03-PROTOCOL-SPEC.md`, `GLOSSARY.md`, `DECISIONS.md`, `schemas/`, `examples/` resolve inside the **`ajar` spec repo**; `CONVERSION-PIPELINE.md` lives in **`ajar-gateway`**; `ROADMAP.md` and `tasks/` live in **`planning`**; conformance vectors currently seed in `ajar/test-vectors` and graduate to **`conformance`** as the executable harness lands.
 
 *You are an AI coding agent working on Ajar. This file is your standing contract. Read it fully before any task. The human maintainer's instructions override this file; this file overrides your defaults.*
 
 ---
+
+## Layered policy
+
+This file (behavior) + `ENGINEERING.md` (engineering standards) + each repo's `AGENTS.md` (architecture contract) all bind. Stricter rule wins.
 
 ## 1. Project context (never lose this)
 
