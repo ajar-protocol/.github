@@ -43,7 +43,7 @@ will be published as each area reaches its first useful baseline.
 
 | Repo | Purpose |
 |---|---|
-| `planning` | Roadmap, build order, positioning, and integration stories |
+| [`planning`](https://github.com/ajar-protocol/planning) | Roadmap, build order, positioning, and integration stories |
 | `ajar` | Protocol specification, glossary, ADRs, schemas, examples, registries, AEPs |
 | `conformance` | Test vectors and harnesses defining "Ajar Compatible" |
 | `ajar-gateway` | Reference server for website owners |
