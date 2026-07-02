@@ -48,6 +48,7 @@ Published now:
 | [`ajar-gateway`](https://github.com/ajar-protocol/ajar-gateway) | Reference server for website owners |
 | [`ajar-docs-mcp`](https://github.com/ajar-protocol/ajar-docs-mcp) | MCP server exposing the Ajar spec to coding agents |
 | [`awesome-ajar`](https://github.com/ajar-protocol/awesome-ajar) | Directory of implementations, bridges, and conformant sites |
+| [`ajar-website`](https://github.com/ajar-protocol/ajar-website) | ajarprotocol.org — documentation website derived from the spec and planning repos |
 
 Publishing later:
 
