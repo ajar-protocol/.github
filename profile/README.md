@@ -36,23 +36,28 @@ fragile, and unsafe for real actions. Ajar adds the missing owner-side contract:
 
 The owner key is the root of authority. Automation drafts; owners decide.
 
-## Planned Repository Map
+## Repository Map
 
-Planning and the protocol specification are public at this stage. Additional
-repos will be published as each area reaches its first useful baseline.
+Published now:
 
 | Repo | Purpose |
 |---|---|
 | [`planning`](https://github.com/ajar-protocol/planning) | Roadmap, build order, positioning, and integration stories |
 | [`ajar`](https://github.com/ajar-protocol/ajar) | Protocol specification, glossary, ADRs, schemas, examples, registries, AEPs |
-| `conformance` | Test vectors and harnesses defining "Ajar Compatible" |
-| `ajar-gateway` | Reference server for website owners |
-| `ajar-kernel` | Reference client runtime for agents |
-| `ajar-docs-mcp` | MCP server exposing the Ajar spec to coding agents |
-| `ajar-woocommerce` | WordPress/WooCommerce integration |
-| `ajar-shopify` | Shopify integration design |
-| `ajar-examples` | Demo sites and benchmark scenarios |
-| `awesome-ajar` | Directory of implementations, bridges, and conformant sites |
+| [`conformance`](https://github.com/ajar-protocol/conformance) | Test vectors and harnesses defining "Ajar Compatible" |
+| [`ajar-gateway`](https://github.com/ajar-protocol/ajar-gateway) | Reference server for website owners |
+| [`ajar-docs-mcp`](https://github.com/ajar-protocol/ajar-docs-mcp) | MCP server exposing the Ajar spec to coding agents |
+| [`awesome-ajar`](https://github.com/ajar-protocol/awesome-ajar) | Directory of implementations, bridges, and conformant sites |
+
+Publishing later:
+
+| Repo | Timing |
+|---|---|
+| `ajar-kernel` | Phase 2 |
+| `ajar-examples` | Phases 1-3 demos |
+| `ajar-woocommerce` | Stage 4 |
+| `ajar-shopify` | Stage 4 |
+| `ajar-index` | Phase 4 |
 
 ## Collaboration Model
 
@@ -69,19 +74,6 @@ Ajar is intended to work alongside:
 - RFC 9421 / Web Bot Auth for signed agent identity
 - UCAN-style chains for capability delegation
 
-## Current Status
-
-Ajar is in design-stage repository setup. The first public milestone is a
-v0.1-draft spec, conformance vectors, and working read-layer demos.
-
-Initial build order:
-
-1. Freeze the CORE protocol draft.
-2. Publish schemas, examples, registries, and conformance vectors.
-3. Build the Gateway read layer and the docs MCP server.
-4. Build the Kernel read/verify path.
-5. Add actions, mandates, receipts, metering, and discovery.
-
 ## Governance And Licenses
 
 Project contact: Hardik Modha <hardik@technopers.com>
@@ -92,3 +84,17 @@ Project contact: Hardik Modha <hardik@technopers.com>
 
 Contributors should read [`CONTRIBUTING.md`](https://github.com/ajar-protocol/.github/blob/main/CONTRIBUTING.md).
 Automation contributors must follow [`AGENTS.md`](https://github.com/ajar-protocol/.github/blob/main/AGENTS.md).
+
+## Where We Are
+
+Phase 0, the spec v0.1 draft baseline, is complete except the independent-reader exercise ([ajar issue #2](https://github.com/ajar-protocol/ajar/issues/2)). Phase 1, the Gateway MVP read layer, is kicking off.
+
+See the [`ROADMAP`](https://github.com/ajar-protocol/planning/blob/main/ROADMAP.md) and [`BUILD-ORDER`](https://github.com/ajar-protocol/planning/blob/main/BUILD-ORDER.md) in planning.
+
+## Start Contributing
+
+- Read the [`ajar`](https://github.com/ajar-protocol/ajar) README in its stated order.
+- Pick a task from the org Project board, [Ajar Roadmap](https://github.com/orgs/ajar-protocol/projects).
+- Start with issues labeled `good first issue` when learning the system.
+- Follow the org [`CONTRIBUTING.md`](https://github.com/ajar-protocol/.github/blob/main/CONTRIBUTING.md): one task, one PR, DoD demonstrated.
+- AI-agent contributors must follow [`AGENTS.md`](https://github.com/ajar-protocol/.github/blob/main/AGENTS.md).

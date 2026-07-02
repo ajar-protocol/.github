@@ -1,6 +1,6 @@
 # Contributing to Ajar
 
-> **Org path convention:** this file applies org-wide (lives in the `.github` repo). References like `docs/03-PROTOCOL-SPEC.md`, `GLOSSARY.md`, `DECISIONS.md`, `schemas/`, `examples/` resolve inside the **`ajar` spec repo**; `CONVERSION-PIPELINE.md` lives in **`ajar-gateway`**; `ROADMAP.md` and `tasks/` live in **`planning`**; the conformance suite lives in **`conformance`**.
+> **Org path convention:** this file applies org-wide (lives in the `.github` repo). References like `docs/03-PROTOCOL-SPEC.md`, `GLOSSARY.md`, `DECISIONS.md`, `schemas/`, `examples/` resolve inside the **`ajar` spec repo**; `CONVERSION-PIPELINE.md` lives in **`ajar-gateway`**; `ROADMAP.md` and `tasks/` live in **`planning`**; conformance vectors currently seed in `ajar/test-vectors` and graduate to **`conformance`** as the executable harness lands.
 
 Thank you for helping build the owner-sovereign agentic web.
 
@@ -10,7 +10,7 @@ Thank you for helping build the owner-sovereign agentic web.
 3. Check `DECISIONS.md` — if your idea contradicts an accepted ADR, open a discussion to revisit the ADR first; don't code against it.
 
 ## How work is organized
-- All work maps to task IDs in `/tasks/phase-N-*.md` (e.g., `T1.6`). One task = one PR.
+- All work maps to task IDs in `/tasks/phase-N-*.md` (e.g., `T1.6`). Issues are seeded in the owning repo and aggregated on the org Project board, [Ajar Roadmap](https://github.com/orgs/ajar-protocol/projects). One task = one PR.
 - New ideas: open an issue proposing a task (context, deliverable, Definition of Done, which docs it touches). Maintainers slot it into a phase.
 - Spec changes: separate PRs labeled `spec-change`, must update schemas, examples, conformance vectors, and (if needed) an ADR — together.
 
