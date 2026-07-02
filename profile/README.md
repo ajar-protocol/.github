@@ -38,13 +38,13 @@ The owner key is the root of authority. Automation drafts; owners decide.
 
 ## Planned Repository Map
 
-Only the organization profile is public at this stage. The project repos below
-will be published as each area reaches its first useful baseline.
+Planning and the protocol specification are public at this stage. Additional
+repos will be published as each area reaches its first useful baseline.
 
 | Repo | Purpose |
 |---|---|
 | [`planning`](https://github.com/ajar-protocol/planning) | Roadmap, build order, positioning, and integration stories |
-| `ajar` | Protocol specification, glossary, ADRs, schemas, examples, registries, AEPs |
+| [`ajar`](https://github.com/ajar-protocol/ajar) | Protocol specification, glossary, ADRs, schemas, examples, registries, AEPs |
 | `conformance` | Test vectors and harnesses defining "Ajar Compatible" |
 | `ajar-gateway` | Reference server for website owners |
 | `ajar-kernel` | Reference client runtime for agents |
@@ -91,4 +91,4 @@ Project contact: Hardik Modha <hardik@technopers.com>
 - Long-term governance target: neutral standards venue
 
 Contributors should read [`CONTRIBUTING.md`](https://github.com/ajar-protocol/.github/blob/main/CONTRIBUTING.md).
-AI coding agents must follow [`AGENTS.md`](https://github.com/ajar-protocol/.github/blob/main/AGENTS.md).
+Automation contributors must follow [`AGENTS.md`](https://github.com/ajar-protocol/.github/blob/main/AGENTS.md).
