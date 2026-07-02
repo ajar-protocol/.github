@@ -1,0 +1,29 @@
+name: Interop note
+description: Propose or document how Ajar works with another protocol, platform, or company system.
+title: "[interop] "
+labels: ["interop", "needs-triage"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Protocol, platform, or product
+      placeholder: MCP, WebMCP, UCP, AP2, x402, Shopify
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should Ajar integrate with, carry, bind to, or avoid duplicating?
+    validations:
+      required: true
+  - type: textarea
+    id: mapping
+    attributes:
+      label: Proposed mapping
+      description: Include Ajar objects, fields, headers, actions, or profiles involved.
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link specs, docs, or implementations.

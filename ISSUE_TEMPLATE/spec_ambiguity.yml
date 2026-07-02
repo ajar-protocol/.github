@@ -1,0 +1,30 @@
+name: Spec ambiguity
+description: Report unclear or conflicting protocol text.
+title: "[spec] "
+labels: ["spec", "needs-triage"]
+body:
+  - type: input
+    id: section
+    attributes:
+      label: Spec section
+      placeholder: docs/03-PROTOCOL-SPEC.md §5.1
+    validations:
+      required: true
+  - type: textarea
+    id: ambiguity
+    attributes:
+      label: What is ambiguous?
+      description: Quote the relevant text and explain the conflicting interpretations.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Implementation impact
+      description: What would implementers do differently depending on the answer?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed clarification
